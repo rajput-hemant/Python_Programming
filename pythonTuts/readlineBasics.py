@@ -1,0 +1,6 @@
+a = open("readlineBasics.txt", "rt")
+# print(a.readlines())
+# print(a.readline())
+content = a.read()
+print(content)
+a.close()
