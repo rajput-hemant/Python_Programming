@@ -15,4 +15,4 @@ while inp != n:
         print("GAME OVER!!!")
         break
 if inp == n:
-    print("Congrats you took", 9-guesses, "to guess the number")
+    print("Congrats you took", 10-guesses, "guesses to guess the number")
