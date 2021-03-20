@@ -8,4 +8,4 @@ while True:
         break
 print('Your list is=', end=' ')
 print(list1)
-print("The smallest element in the list is=", max(list1))
+print("The Largest element in the list is=", max(list1))
