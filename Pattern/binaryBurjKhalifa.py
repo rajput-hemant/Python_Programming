@@ -1,4 +1,4 @@
-# Python program to print Binary Burf Khalifa
+# Python program to print Binary Burj Khalifa
 n = int(input('Enter the height of the Binary Burj Khalifa='))
 ln = len(bin(n))-2
 print('How you want to create Binary Burj Khalifa?')
