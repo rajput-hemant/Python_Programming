@@ -12,7 +12,7 @@ for i in range(1, n+1):
         print(b)
         break
     else:
-        print(total)
+        print(total, end=' ')
         a = b
         b = total
         total = a + b
