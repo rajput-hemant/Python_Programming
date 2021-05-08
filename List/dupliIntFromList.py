@@ -5,6 +5,8 @@ print('Enter the elements in the List=')
 for i in range(n):
     list1.append(int(input()))
 print('Your list is=', list1)
+list1.sort()
+print('Your list after sorting is=', list1)
 print('Duplicates elements are=')
 for i in range(n):
     for j in range(i+1, n):
