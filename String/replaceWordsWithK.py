@@ -1,7 +1,7 @@
 # Python – Replace multiple words with K
-str1 = input('Enter the string=')
-char = input('Enter the word or words you want to replace with K=')
-str2 = ''
-for i in str1:
-    str2 = str1.replace(char, 'k')
-print(str2)
+str1 = input("Enter the String=")
+print("Enter the Words you want to replace with K=", end=" ")
+tmp_list = list(map(str, input().split()))
+for i in tmp_list:
+    str1 = str1.replace(i, 'k')
+print(f"String after replacing {tmp_list} with k is='{str1}'")
