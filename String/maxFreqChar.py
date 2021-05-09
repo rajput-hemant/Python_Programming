@@ -6,7 +6,7 @@ for i in str1:
         char_freq[i] += 1
     else:
         char_freq[i] = 1
-# For Single Least Frequent Character
+# For Single Maximum Frequent Character
 # print(f"Maximum frequent character in '{str1}' is= {max(char_freq, key=char_freq.get)}")
 # For All characters with same frequency
 tmp = max(char_freq.values())
