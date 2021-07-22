@@ -1,5 +1,6 @@
 .idea/.name
 .vscode/
+.vscode/settins.json
 .idea/compiler.xml
 .idea/copyright/profiles_settings.xml
 .idea/encodings.xml
